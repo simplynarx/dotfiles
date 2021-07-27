@@ -1,0 +1,29 @@
+#!/bin/sh
+
+#This file takes care of startup programs, whether you use startx or a DM
+
+xrandr --auto --output Virtual-1 --mode 2560x1080 & #Set resolution
+
+xset r rate 300 50 & #Makes moving your text cursor faster
+
+/usr/bin/setxkbmap -option "caps:swapescape" & #Switches caps lock and escape, makes editing in vim quicker and easier
+
+nitrogen --set-zoom-fill ~/.config/wallpaper.png & #Restore BG
+
+#picom --config ~/.config/picom/picom.conf &
+
+lxsession &
+
+dwmblocks &
+
+xcompmgr &
+
+clipmenud &
+
+xautolock -locker "i3lock-fancy -g" &
+
+mpd &
+
+unclutter &
+
+dunst &

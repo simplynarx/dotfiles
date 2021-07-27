@@ -1,0 +1,106 @@
+{
+	"dmCategories": {
+		"7542323350139759": {
+			"collapsed": false,
+			"color": null,
+			"dms": [
+				"823400407933255700",
+				"822854341361795092",
+				"794420845262012416",
+				"791414352958980097",
+				"792961099267833888",
+				"758103427564961812",
+				"797248483341107211",
+				"671486455750852608",
+				"766392769387954226",
+				"766758644342587422"
+			],
+			"id": "7542323350139759",
+			"name": "Group Chats",
+			"pos": 0
+		},
+		"5710997894338301": {
+			"collapsed": false,
+			"color": null,
+			"dms": [
+				"592170540287131669",
+				"662468789241380869",
+				"757676492271517797"
+			],
+			"id": "5710997894338301",
+			"name": "The Archives",
+			"pos": 1
+		}
+	},
+	"general": {
+		"pinIcon": true,
+		"unreadAmount": true,
+		"channelAmount": true
+	},
+	"pinned": {
+		"193909794258550786": {
+			"channelList": {
+				"7542323350139759": {
+					"collapsed": false,
+					"color": null,
+					"dms": [
+						"867204509087170561",
+						"862073812073185360",
+						"842923878291734559",
+						"838543598357315614",
+						"823400407933255700",
+						"822854341361795092",
+						"794420845262012416",
+						"791414352958980097",
+						"792961099267833888",
+						"758103427564961812",
+						"797248483341107211",
+						"671486455750852608",
+						"766392769387954226",
+						"766758644342587422"
+					],
+					"id": "7542323350139759",
+					"name": "Group Chats",
+					"pos": 0
+				},
+				"5710997894338301": {
+					"collapsed": false,
+					"color": null,
+					"dms": [
+						"592170540287131669",
+						"662468789241380869",
+						"757676492271517797"
+					],
+					"id": "5710997894338301",
+					"name": "The Archives",
+					"pos": 1
+				}
+			}
+		}
+	},
+	"preCategories": {
+		"friends": {
+			"enabled": false,
+			"collapsed": false
+		},
+		"blocked": {
+			"enabled": false,
+			"collapsed": false
+		},
+		"groups": {
+			"enabled": false,
+			"collapsed": false
+		}
+	},
+	"recentOrder": {
+		"channelList": false,
+		"guildList": false
+	},
+	"settings": {
+		"showCategoryAmount": true,
+		"showCategoryUnread": true,
+		"showPinIcon": true,
+		"sortInRecentOrder": false,
+		"sortInRecentOrderGuild": false
+	}
+}

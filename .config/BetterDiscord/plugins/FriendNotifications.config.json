@@ -1,0 +1,95 @@
+{
+	"amounts": {
+		"checkInterval": 10,
+		"toastTime": 5
+	},
+	"notificationsounds": {
+		"desktopdnd": {
+			"url": null,
+			"song": null,
+			"mute": false
+		},
+		"desktopidle": {
+			"url": null,
+			"song": null,
+			"mute": false
+		},
+		"desktoplistening": {
+			"url": null,
+			"song": null,
+			"mute": false
+		},
+		"desktopoffline": {
+			"url": null,
+			"song": null,
+			"mute": false
+		},
+		"desktoponline": {
+			"url": null,
+			"song": null,
+			"mute": false
+		},
+		"desktopplaying": {
+			"url": null,
+			"song": null,
+			"mute": false
+		},
+		"desktopstreaming": {
+			"url": null,
+			"song": null,
+			"mute": false
+		},
+		"toastdnd": {
+			"url": null,
+			"song": null,
+			"mute": false
+		},
+		"toastidle": {
+			"url": null,
+			"song": null,
+			"mute": false
+		},
+		"toastlistening": {
+			"url": null,
+			"song": null,
+			"mute": false
+		},
+		"toastoffline": {
+			"url": null,
+			"song": null,
+			"mute": false
+		},
+		"toastonline": {
+			"url": null,
+			"song": null,
+			"mute": false
+		},
+		"toastplaying": {
+			"url": null,
+			"song": null,
+			"mute": false
+		},
+		"toaststreaming": {
+			"url": null,
+			"song": null,
+			"mute": false
+		}
+	},
+	"notificationstrings": {
+		"custom": "$user changed status to '$custom'",
+		"dnd": "$user changed status to '$status'",
+		"idle": "$user changed status to '$status'",
+		"listening": "$user started listening to '$song'",
+		"offline": "$user changed status to '$status'",
+		"online": "$user changed status to '$status'",
+		"playing": "$user started playing '$game'",
+		"streaming": "$user started streaming '$game'"
+	},
+	"settings": {
+		"addOnlineCount": true,
+		"disableForNew": false,
+		"muteOnDND": false,
+		"openOnClick": false,
+		"showDiscriminator": false
+	}
+}

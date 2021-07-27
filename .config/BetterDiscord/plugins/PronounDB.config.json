@@ -1,0 +1,14 @@
+{
+    "currentVersionInfo": {
+        "version": "0.0.4",
+        "hasShownChangelog": true
+    },
+    "settings": {
+        "customPronouns": {
+            "274491795688128512": "ts",
+            "193909794258550786": "avoid"
+        },
+        "showOnTimestamp": true,
+        "showInUserPopout": true
+    }
+}
