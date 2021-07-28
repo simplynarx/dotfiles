@@ -10,6 +10,6 @@ case "$(echo -e "Shutdown\nRestart\nLogout\nSuspend\nLock" | dmenu  \
         Shutdown) exec systemctl poweroff;;
         Restart) exec systemctl reboot;;
         Logout) kill -HUP $XDG_SESSION_PID;;
-        Suspend) exec i3lock-fancy -g && systemctl suspend;;
+        Suspend) exec systemctl suspend;;
         Lock) exec i3lock-fancy -g;;
 esac
