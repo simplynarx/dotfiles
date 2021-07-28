@@ -4,13 +4,15 @@ static const Block blocks[] = {
 
 //	{"Vol: ", "pamixer --get-volume", 1, 0},
 
+	{"", "bash ~/.config/dwmblocks/scripts/sb-battery", 30, 0},
+
 	{"Vol: ", "bash ~/.config/dwmblocks/scripts/sb-volume", 1, 0},
 
 	{"", "bash ~/.config/dwmblocks/scripts/sb-caps", 1, 0},
 
 	{"/: ", "bash ~/.config/dwmblocks/scripts/sb-disk", 60, 0},
 
-	{"Cpu: ", "sensors | awk '/Core 0/ {print '' $3'", 5, 0},
+	{"Cpu: ", "bash ~/.config/dwmblocks/scripts/sb-cpu", 5, 0},
 
 	{"Mem: ", "free -h | awk '/^Mem/ { print $3\"/\"$2 }' | sed s/i//g",	5,		0},
 

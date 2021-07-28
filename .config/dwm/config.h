@@ -212,7 +212,11 @@ static Key keys[] = {
 	{ MODKEY,			XK_g,		spawn,	   SHCMD("st -e ranger") },
 	{ MODKEY|ShiftMask, XK_g, spawn, SHCMD("pcmanfm") },
 	{ MODKEY,			XK_Print,	spawn,	   SHCMD("flameshot gui") },
-
+	{ 0, XF86XK_MonBrightnessUp,	spawn,		SHCMD("xbacklight -inc 15") },
+	{ 0, XF86XK_MonBrightnessDown,	spawn,		SHCMD("xbacklight -dec 15") },
+	{ 0, XF86XK_AudioLowerVolume,   spawn,   SHCMD("pamixer -d 5") }, 
+	{ 0, XF86XK_AudioRaiseVolume,   spawn,   SHCMD("pamixer -i 5") }, 
+	{ 0, XF86XK_AudioMute,   spawn,   SHCMD("pamixer -t ") }, 
 };
 
 /* button definitions */
