@@ -11,5 +11,5 @@ case "$(echo -e "Shutdown\nRestart\nLogout\nSuspend\nLock" | dmenu  \
         Restart) exec systemctl reboot;;
         Logout) kill -HUP $XDG_SESSION_PID;;
         Suspend) exec systemctl suspend;;
-        Lock) exec i3lock-fancy -g;;
+        Lock) exec slock;;
 esac
