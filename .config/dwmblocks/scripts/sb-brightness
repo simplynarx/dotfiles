@@ -2,4 +2,8 @@
 
 bright=$(cat /sys/class/backlight/amdgpu_bl0/brightness)
 
-echo "Brightness: $bright%"
+if [[ $(find /sys/class/backlight -iname amdgpu_10) = "" ]]; then
+	echo "Brightness: N/A"
+else
+  echo "Brightness: $bright%"
+fi
