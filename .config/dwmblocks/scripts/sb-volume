@@ -1,9 +1,0 @@
-#!/bin/sh
-
-vol="$(pamixer --get-volume)"
-
-if [ $(pamixer --get-mute) = true ]; then
-	echo "0%"
-else
-	echo "$vol%"
-fi

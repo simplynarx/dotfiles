@@ -1,7 +1,0 @@
-#!/bin/sh
-
-if [[ $(xset -q | grep Caps) = "    00: Caps Lock:   off    01: Num Lock:    off    02: Scroll Lock: off" ]]; then
-	echo "Caps: OFF"
-else
-	echo "Caps: ON"
-fi
