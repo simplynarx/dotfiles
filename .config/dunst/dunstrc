@@ -122,6 +122,9 @@
 
     # browser for opening urls in context menu
     browser = /usr/bin/firefox -new-tab
+    
+    #icon position
+    icon_position = off
 
 [frame]
     width = 0
