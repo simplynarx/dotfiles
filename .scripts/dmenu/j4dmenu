@@ -1,0 +1,4 @@
+#!/bin/sh
+
+j4-dmenu-desktop --dmenu "dmenu -i -fn JetbrainsMono:size=8.5 -nb '#202119' -nf '#bbbbbb' -sb '#3d3e2c' -sf '#eeeeee'"
+
