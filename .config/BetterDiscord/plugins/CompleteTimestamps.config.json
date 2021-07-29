@@ -21,9 +21,11 @@
 	"general": {
 		"showInChat": true,
 		"showInEmbed": true,
+		"showInMarkup": true,
 		"showInAuditLogs": true,
 		"changeForChat": true,
-		"changeForEdit": true
+		"changeForEdit": true,
+		"changeForMarkup": true
 	},
 	"settings": {
 		"showInChat": true,

@@ -33,7 +33,7 @@
     "PluginRepo": true,
     "ReadAllNotificationsButton": true,
     "SendAudio": true,
-    "SendLargeMessages": true,
+    "SendLargeMessages": false,
     "ShowAllActivities": true,
     "ShowConnections": false,
     "ShowHiddenChannels": true,
@@ -48,9 +48,10 @@
     "Translator": true,
     "TeX": true,
     "        OpenInYouTube": true,
-    "DoubleClickToEdit": true,
+    "DoubleClickToEdit": false,
     "LinkBanner": true,
     "ChannelPermissions": false,
     "UserVoiceShow": true,
-    "OpenSteamLinksInApp": true
+    "OpenSteamLinksInApp": true,
+    "SplitLargeMessages": false
 }

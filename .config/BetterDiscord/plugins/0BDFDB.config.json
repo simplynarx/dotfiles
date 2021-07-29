@@ -3,13 +3,13 @@
 		"BDFDB": "1.7.9",
 		"BetterNsfwTag": "1.2.7",
 		"BetterSearchPage": "1.2.0",
-		"CharCounter": "1.5.4",
-		"CompleteTimestamps": "1.5.7",
+		"CharCounter": "1.5.6",
+		"CompleteTimestamps": "1.5.8",
 		"CreationDate": "1.4.6",
 		"CustomQuoter": "1.2.8",
 		"FriendNotifications": "1.6.1",
 		"GoogleTranslateOption": "2.2.7",
-		"ImageUtilities": "4.4.4",
+		"ImageUtilities": "4.4.5",
 		"JoinedAtDate": "1.3.3",
 		"LastMessageDate": "1.2.8",
 		"PinDMs": "1.8.3",
@@ -17,13 +17,13 @@
 		"ReadAllNotificationsButton": "1.6.7",
 		"SendLargeMessages": "1.6.8",
 		"ShowConnections": "1.0.5",
-		"ShowHiddenChannels": "3.0.1",
-		"SpotifyControls": "1.1.6",
+		"ShowHiddenChannels": "3.0.2",
+		"SpotifyControls": "1.1.8",
 		"SteamProfileLink": "1.1.1",
 		"ThemeRepo": "2.2.3",
 		"ThemeSettings": "1.3.3",
 		"TopRoleEverywhere": "3.0.5",
-		"Translator": "2.2.9"
+		"Translator": "2.3.0"
 	},
 	"choices": {
 		"toastPosition": "right"
