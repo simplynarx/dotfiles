@@ -2,7 +2,7 @@
 
 [ -f ~/.xprofile ] && . ~/.xprofile
 
-xset dpms 180 &
+xset dpms 300 &
 
 xss-lock -- slock &
 
