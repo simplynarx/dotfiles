@@ -1,0 +1,14 @@
+#!/bin/sh
+
+case "$(echo -e "English\nSpanish\nGreek" | dmenu  \
+    -nb "${COLOR_BACKGROUND:-#202119}" \
+    -nf "${COLOR_DEFAULT:-#bbbbbb}" \
+    -sf "${COLOR_HIGHLIGHT:-#eeeeee}" \
+    -sb "#3d3e2c" \
+    -i -p \
+    "Keyboard Layouts:" -l 3)" in
+        English) setxkbmap us;;
+        Spanish) setxkbmap es;;
+        Greek) setxkbmap gr;;
+esac
+
