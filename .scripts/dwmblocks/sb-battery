@@ -3,7 +3,7 @@
 bat="$(cat /sys/class/power_supply/BAT0/capacity)"
 
 if [[ $(find /sys/class/power_supply -iname BAT0) = "" ]]; then
-	echo "No Battery"
+	echo "Battery: N/A"
 else
 	echo "Battery: $bat%"
 fi
