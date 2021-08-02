@@ -1,0 +1,13 @@
+#!/bin/sh
+
+if [[ $(setxkbmap -query | sed -n '3p') = "layout:     us"  ]]; then
+	echo "Lang: EN"
+fi
+
+if [[ $(setxkbmap -query | sed -n '3p') = "layout:     es"  ]]; then
+	echo "Lang: ES"
+fi
+
+if [[ $(setxkbmap -query | sed -n '3p') = "layout:     gr"  ]]; then
+	echo "Lang: GR"
+fi

@@ -1,15 +1,14 @@
 #!/bin/sh
 
-case "$(echo -e "Shutdown\nRestart\nLogout\nSuspend\nLock" | dmenu  \
+case "$(echo -e "Shutdown\nRestart\nSuspend\nLock" | dmenu  \
     -nb "${COLOR_BACKGROUND:-#202119}" \
     -nf "${COLOR_DEFAULT:-#bbbbbb}" \
     -sf "${COLOR_HIGHLIGHT:-#eeeeee}" \
     -sb "#3d3e2c" \
     -i -p \
-    "Power:" -l 5)" in
+    "Power:" -l 4)" in
         Shutdown) exec systemctl poweroff;;
         Restart) exec systemctl reboot;;
-        Logout) kill -HUP $XDG_SESSION_PID;;
         Suspend) exec systemctl suspend;;
         Lock) exec slock;;
 esac
